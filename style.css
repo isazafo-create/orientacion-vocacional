@@ -1,17 +1,17 @@
 body {
     font-family: "Audiowide", sans-serif;
     background-color: #010A26;
-    margin: 10px 3% 1em;
+    margin: 10px 3%;
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    padding: 15px;
     color: #ffffff;
 }
 body h2{
   text-align: center;
 }
 
-.box1 {
+.boxtest {
   display: flex;
   width: 100%;
   text-align: center;
@@ -22,7 +22,7 @@ body h2{
 
 }
   
-  .box1 a {
+  .boxtest a {
     text-decoration: none;
     color: #000000;
     font-weight: bold;
@@ -33,12 +33,12 @@ body h2{
     background-color: #32568b;
   }
   
-  .box1 a:hover {
+  .boxtest a:hover {
     background-color: #7dbed8;
   }
 
 
-.box {
+.boximg {
   display: flex;
   width: 100%;
   text-align: center;
@@ -48,7 +48,7 @@ body h2{
   justify-content: center;
 }
   
-  .box a {
+  .boximg a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
@@ -58,7 +58,7 @@ body h2{
     text-align: center;
   }
   
-  .box a:hover {
+  .boximg a:hover {
     background-color: #32568b;
   }
 
@@ -79,7 +79,7 @@ img {
     font-weight: 400; 
     text-align: left; 
     background: #011640; 
-    margin: 10px 3% 1em; 
+    margin: 10px 3%; 
     overflow: hidden; 
     padding: 30px; 
     border-radius: 35px 0px 35px 0px; 
@@ -106,7 +106,6 @@ img {
   align-items: center;
   justify-items: center;
   text-align: center;
-
 }
   
 .boton-inicio button:hover {
